@@ -43,3 +43,26 @@ Object (host and does not implement [[Call]]) -  Implementation-defined except m
                                                  "undefined", "boolean", "number", or "string".
 */
 
+
+/////++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Two types of memory 
+//  Stack (Primitive), and Heap (Non Primitive)
+
+let myName = "Aniket"
+let anotherName = "Saini"
+anotherName = "shiva"
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    email: "userone@gmail.com",
+    upi: "user1@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "usertwo@gmail"
+
+console.log(userOne);
+console.log(userTwo);
